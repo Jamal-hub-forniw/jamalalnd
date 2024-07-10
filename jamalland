@@ -1,0 +1,49 @@
+getgenv().midnight = {
+    Aimbot = {
+        Keybind = Enum.KeyCode.C,
+        CamlockPrediction = 0.1305277,
+        Prediction = 0.1333,
+
+        Basic = true,
+        TargetPart = "HumanoidRootPart",
+
+        NearestPart = false,
+        MultipleTargetPart = {"Head","HumanoidRootPart"},
+
+        CameraSmoothing = 0.06,
+        CameraShake = 0,
+        JumpOffset = 0.9
+    },
+    Safety = {
+        AntiGroundShots = false,
+    },
+    Checks = {
+        DisableOnTargetDeath = true,
+        DisableOnPlayerDeath = true,
+        CheckKoStatus = true,
+    },
+    Macro = {
+        Enabled = false,
+        SpeedGlitchKey = Enum.KeyCode.X,
+    },
+    EspSection = {
+        ChamsESP = true,
+        ChamsESPKeybind = Enum.KeyCode.Q,
+        ChamsColor1 = Color3.fromRGB(8, 0, 136),
+        ChamsColor2 = Color3.fromRGB(73, 98, 98),
+    },
+    Misc = {
+        RejoinServer = false,
+    },
+    Spin = {
+        Enabled = true,
+        SpinSpeed = 4900,
+        Degrees = 360,
+        Keybind = Enum.KeyCode.V,
+    },
+}
+
+
+loadstring(game:HttpGetAsync("https://gist.githubusercontent.com/Swifty-bit/409cf5d85fab7c44fbeb996a7d115188/raw/9561839fe63c2cd95b52c89531c505f8dab406b0/gistfile1.txt"))()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()
